@@ -5,4 +5,5 @@
 *.o
 *.S
 *.s
+person-study
 tests/test

@@ -1,0 +1,13 @@
+local
+  $(SML_LIB)/basis/basis.mlb
+  exceptions.sml
+  invalid.fun
+  pipeline.sml
+  between.fun
+  trim.fun
+  prompt.sig
+  prompt.sml
+in
+  signature PROMPT
+  structure Prompt
+end

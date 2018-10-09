@@ -10,5 +10,5 @@ struct
     "born on " ^ (Date.fmt "%d %B %Y" date)
 
     | show {date = date, place = SOME place} =
-    "born at " ^ place ^ " on " ^ (Date.fmt "%d %B %Y" date)
+    "born at " ^ place ^ ", on " ^ (Date.fmt "%d %B %Y" date)
 end

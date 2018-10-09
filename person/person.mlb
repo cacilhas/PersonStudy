@@ -1,0 +1,9 @@
+local
+  $(SML_LIB)/basis/basis.mlb
+  ../birth/birth.mlb
+  person.sig
+  person.sml
+in
+  signature PERSON
+  structure Person
+end

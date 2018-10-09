@@ -1,0 +1,1 @@
+exception Invalid of string

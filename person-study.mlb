@@ -1,0 +1,12 @@
+ann
+  "allowExtendedTextConsts true"
+in
+  local
+    $(SML_LIB)/basis/basis.mlb
+    birth/birth.mlb
+    person/person.mlb
+    prompt/prompt.mlb
+  in
+    main.sml
+  end
+end
