@@ -1,0 +1,7 @@
+local
+  $(SML_LIB)/basis/basis.mlb
+  $(SMACKAGE)/UnitTestML/v1/unittest.mlb
+  ../birth/birth.mlb
+in
+  birth_spec.sml
+end
