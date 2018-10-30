@@ -11,5 +11,5 @@ struct
   fun hometown {name = _, birth = {date = _, place = place}} = place
 
   fun show {name = name, birth = birth} =
-    "Here is " ^ name ^ ", " ^(Birth.show birth)
+    "Here is " ^ name ^ ", " ^ (Birth.show birth)
 end
