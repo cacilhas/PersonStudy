@@ -1,8 +1,8 @@
 local
   $(SML_LIB)/basis/basis.mlb
+  $(SMACKAGE)/pipelines/v1/pipelines.mlb
   exceptions.sml
   invalid.fun
-  pipeline.sml
   between.fun
   trim.fun
   prompt.sig
